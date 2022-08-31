@@ -24,4 +24,4 @@ app.use((req, res) => {
 	res.status(404).send({ url: `${ req.originalUrl} was not found` });
 });
 
-console.log(`Server started on http://localhost:${ port }/`)
+console.log(`Server started on ${ port }/`)
