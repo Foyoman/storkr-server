@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 
 global.Signups = require('./api/models/signupModel');
 const routes = require('./api/routes/signupRoutes');
